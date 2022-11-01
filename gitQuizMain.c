@@ -11,7 +11,10 @@ int main(void)
         printf("You know how to use Git!");
     }
     else{
-        printf("You dont know how to use Git:( \n");
+        if(val!= 'y'){
+            printf("You dont know how to use Git");
+        }
+        
     }
 
     printf("\n");
